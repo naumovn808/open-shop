@@ -1,0 +1,884 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --primary-background: #313131;
+        --primary-text-color: #FFFFFF;
+    }
+
+    .navbar-toggler {
+        color: var(--primary-text-color);
+    }
+
+    .dropdown-item {
+        color: var(--primary-text-color);
+        background-color: black;
+    }
+
+    .dropdown-menu {
+        background-color: black;
+    }
+
+    body {
+        background: var(--primary-background);
+    }
+
+    .navbar {
+        background: #0C0C0C;
+
+    }
+
+    .header__left-img {
+        background: radial-gradient(33.86% 50.86% at 50% 50%, rgba(255, 255, 255, 0.35) 4%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .header__logo::before {
+        content: url('../images/Logo_dark.png');
+    }
+
+    .form-control {
+        border-radius: 0;
+        background: #313131;
+    }
+
+    .btn-outline-success {
+        border-color: #FFFFFF;
+        border-radius: 0;
+    }
+
+    .header__menu-link {
+        color: var(--primary-text-color);
+    }
+
+    .header__menu-link:hover {
+        color: var(--primary-text-color);
+    }
+
+    .header__content-title {
+        color: var(--primary-text-color);
+    }
+
+    .main__btn {
+        border-color: var(--primary-text-color);
+        color: var(--primary-text-color);
+        border: 1px solid #FFFFFF;
+    }
+
+    .header__content-btn {
+        border: 1px solid var(--primary-text-color);
+    }
+
+    .carousel-indicators [data-bs-target] {
+        background: #ABABAB;
+    }
+
+    .carousel-indicators [data-bs-target].active {
+        background: var(--primary-text-color);
+    }
+
+    .main__sellphones-title {
+        color: var(--primary-text-color);
+    }
+
+    .main__sellphones-title:hover {
+        color: var(--primary-text-color);
+    }
+
+    .iphone_11_128 {
+        content: url('../images/iphone\ 11\ yellow_dark.png');
+    }
+
+    .blue_iph {
+        content: url('../images/iphone\ 12\ blue_dark.png');
+    }
+
+    .red_iph {
+        content: url('../images/iphone\ 11\ red_dark.png');
+    }
+
+    .main__sellphones-description {
+        color: var(--primary-text-color);
+    }
+
+    .main__sellphones-description:hover {
+        color: var(--primary-text-color);
+    }
+
+    .main__sellphones-price {
+        color: var(--primary-text-color);
+    }
+
+    .main__sellphones-price:hover {
+        color: var(--primary-text-color);
+    }
+
+    .lenovo {
+        content: url('../images/lenovo_ideapad_dark.png');
+    }
+
+    .dream_g16 {
+        content: url('../images/Dream\ Machines\ G1650Ti-15UA65_dark.png');
+    }
+
+    .macbook {
+        content: url('../images/macbook_dark.png');
+    }
+
+    .dream_51 {
+        content: url('../images/Dream\ Machines\ 15UA51_dark.png');
+    }
+
+    .main__comps-title {
+        color: var(--primary-text-color);
+    }
+
+    .main__comps-title:hover {
+        color: var(--primary-text-color);
+    }
+
+    .main__comps-description {
+        color: var(--primary-text-color);
+    }
+
+    .main__comps-description:hover {
+        color: var(--primary-text-color);
+    }
+
+    .main__comps-price {
+        color: var(--primary-text-color);
+    }
+
+    .main__comps-price:hover {
+        color: var(--primary-text-color);
+    }
+
+    .main__playstation-title {
+        color: var(--primary-text-color);
+    }
+
+    .main__playstation-logo {
+        content: url('../images/playstation5_logo_dark.png');
+    }
+
+    .main__playstation-img {
+        content: url('../images/playstation5_dark.png');
+        background: radial-gradient(38% 50.86% at 72% 42%, rgba(255, 255, 255, 0.35) 16%, rgba(255, 255, 255, 0) 71%);
+        width: 100%;
+    }
+
+
+    .main__bestsels-title {
+        color: var(--primary-text-color);
+    }
+
+    .main__bestsels-title:hover {
+        color: var(--primary-text-color);
+    }
+
+    .main__bestsels-img {
+        background: radial-gradient(44% 50.86% at 53% 44%, rgba(255, 255, 255, 0.35) 20%, rgba(255, 255, 255, 0) 85%);
+    }
+
+    .main__bestsels-description {
+        color: var(--primary-text-color);
+    }
+
+    .main__bestsels-description:hover {
+        color: var(--primary-text-color);
+    }
+
+    .main__bestsels-price {
+        color: var(--primary-text-color);
+    }
+
+    .main__bestsels-price:hover {
+        color: var(--primary-text-color);
+    }
+
+    .main__comps-img {
+        background: radial-gradient(56% 36.86% at 49% 45%, rgba(255, 255, 255, 0.35) 20%, rgba(255, 255, 255, 0) 85%);
+    }
+
+    .main__sellphones-img {
+        background: radial-gradient(46% 9.86% at 53% 67%, rgba(255, 255, 255, 0.35) 20%, rgba(255, 255, 255, 0) 85%);
+    }
+
+    .sm_watch {
+        content: url('../images/Smart_Watch_dark.png');
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    }
+
+    .smwatch_W34_ZM {
+        content: url('../images/Smart_Watch_W34_ZM_\(Black\)_dark.png');
+    }
+
+    .cofee_macine {
+        content: url('../images/Coffee\ machine\ VITEK\ VT-1526_dark.png');
+
+    }
+
+    .main__xbox-title {
+        color: var(--primary-text-color);
+    }
+
+    .main__xboxdescription {
+        color: var(--primary-text-color);
+    }
+
+    .main__iphone12-title {
+        color: var(--primary-text-color);
+    }
+
+    .main__iphone12-description {
+        color: var(--primary-text-color);
+    }
+
+    .main__iphone12-link {
+        border: 1px solid var(--primary-text-color);
+    }
+
+    .header__hidden {
+        background: #0C0C0C;
+    }
+
+    .bg-light {
+        background-color: var(--primary-background) !important;
+    }
+
+    .header__hidden-title {
+        color: var(--primary-text-color);
+    }
+
+    .header__hidden-link {
+        color: var(--primary-text-color);
+    }
+
+
+    .header__mobiles-title {
+        color: var(--primary-text-color);
+    }
+
+    .header__mobiles-price {
+        color: var(--primary-text-color);
+    }
+
+    .header__mobiles-title2 {
+        color: var(--primary-text-color);
+    }
+
+    .header__mobiles-characteristic {
+        color: var(--primary-text-color);
+    }
+
+    .header__mobiles-characteristic::before {
+        background: var(--primary-text-color);
+    }
+
+    .list-group-item {
+        background-color: var(--primary-background);
+    }
+
+    .list-group-item.active {
+        background-color: var(--primary-background);
+        color: var(--primary-background);
+    }
+
+    
+    .header__mobiles-left {
+        background: radial-gradient(49.86% 53.86% at 50% 50%, rgba(255, 255, 255, 0.35) 4%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .header__content-title{
+        text-shadow: none;
+    }
+
+    .main__xbox-title{
+        text-shadow: none;
+    }
+
+    .main__xboxdescription{
+        text-shadow: none;
+    }
+
+    .main__playstation-title{
+        text-shadow: none;
+    }
+
+    .main__iphone12-description{
+        text-shadow: none;
+    }
+
+
+    /* FOOTER START */
+
+    .footer {
+        background: #0C0C0C;
+    }
+
+    .footer__info-btn {
+        background: var(--primary-background)
+    }
+
+
+
+    /* FOOTER END */
+
+
+
+}
+
+
+
+
+
+
+@media(max-width: 1300px) {
+    .main__sellphones-items {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .main__comps-items {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .main__bestsels-items {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .header__menu {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .header__menu li {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .header__content-title {
+        max-width: 400px;
+        font-size: 45px;
+    }
+
+    .form-control {
+        width: 350px;
+    }
+
+    .main__discounts-item:nth-of-type(1) {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .main__discounts-item:nth-of-type(2) {
+        grid-column: span 4;
+    }
+
+    .main__discounts-item:nth-of-type(3) {
+        grid-column: span 2;
+    }
+
+    .main__discounts-item:nth-of-type(4) {
+        grid-column: span 2;
+    }
+
+    .main__playstation-logo {
+        margin-top: 34px;
+        margin-bottom: 7px;
+    }
+
+    .main__playstation-title {
+        margin-bottom: 35px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .main__iphone12-description {
+        margin-left: 0;
+        text-align: center;
+        
+
+    }
+
+    .main__iphone12-title {
+        text-align: start;
+    }
+
+    .main__iphone12-link {
+        margin-left: 180px;
+    }
+
+    .main__iphone12-img {
+        content: url('../images/playstation_VR_modified.png');
+    }
+
+    .main__iphone12-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main__iphone12-link {
+        margin-left: 0;
+        border: 1px solid #FFFFFF;
+    }
+
+    .main__playstation-img {
+        content: url('../images/playstation5_dark_modified.png');
+    }
+
+    .main__playstation-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__playstation-logo {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    .main__playstation-title {
+        text-align: center;
+    }
+
+    .header__mobiles-left{
+        margin-top: 20px;
+    }
+
+
+}
+
+@media(max-width: 996px) {
+    .header__search {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header__content-title {
+        max-width: 330px;
+        font-size: 40px;
+        margin-left: -165px;
+        margin-top: 200px
+    }
+
+    .header__content-btn {
+        margin-left: -155px
+    }
+
+    .header__menu {
+        margin-top: 15px;
+    }
+
+    .header__menu-link {
+        line-height: 30px;
+        margin: 0 10px;
+    }
+
+
+    .header__mobiles-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__mobiles {
+        margin-top: 0;
+    }
+
+    .list-group-item {
+        margin: 0 10px;
+    }
+
+    .header__mobiles-menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .list-group {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .tab-pane {
+        flex-direction: column;
+    }
+
+
+
+    .footer__info {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer__form-list {
+        margin-top: 40px !important;
+    }
+
+    .footer__icons {
+        margin-top: 25px;
+    }
+
+    .footer__form-box {
+        margin: 0 15px;
+    }
+}
+
+
+
+
+@media(max-width: 900px) {
+    .header__nav-img {
+        margin-bottom: 15px;
+    }
+
+    .header__mobiles-left{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .header__nav-links {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .main__playstation-logo {
+        margin-top: 10px;
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .main__btn {
+        width: 150px;
+        padding: 8px;
+        font-size: 16px;
+
+    }
+
+    .footer__info-logo {
+        margin-bottom: 40px;
+    }
+
+    .main__iphone12-description {
+        margin-top: 20px;
+    }
+
+    .main__iphone12-link {
+        margin-top: 40px;
+    }
+
+    .main__xbox-line {
+        display: none;
+    }
+
+    .main__xbox-title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .main__xboxdescription {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+}
+
+
+@media(max-width: 560px) {
+    .form-control {
+        width: 140px;
+    }
+
+    .btn-outline-success {
+        width: 60px;
+        font-size: 0px;
+    }
+    .search__icon {
+color:#FFFFFF !important;
+font-size: 16px !important;
+    }
+
+    .header__content-left {
+        position: relative;
+        /* width: 100%; */
+    }
+
+    .header__content-right {
+        position: absolute;
+        left: 0px;
+        max-width: 640px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .header__content-title {
+        max-width: 465px;
+        margin-left: 0;
+        font-size: 35px;
+        line-height: 53px;
+        margin-top: 172px;
+    }
+    .main__comps-item {
+        margin-right: 0;
+    }
+
+    .main__bestsels-item {
+        margin-right: 0;
+    }
+
+    .header__content-btn {
+        width: 123px;
+        padding: 12px;
+        font-size: 18px;
+        line-height: 13px;
+        text-transform: capitalize;
+        margin-left: 0;
+    }
+
+    .header__search {
+        align-items: center;
+    }
+
+    .main__sellphones-items {
+        margin-bottom: 20px;
+    }
+
+    .main__comps-items {
+        margin-bottom: 20px;
+    }
+
+    .header__nav-img {
+        margin-right: 20px;
+    }
+
+    .main__discounts-title {
+        font-size: 17px;
+    }
+
+    .main__discounts-percent {
+        max-width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .footer__info-btn {
+        text-transform: lowercase;
+    }
+
+    .footer__form {
+        max-width: 335px;
+    }
+
+    .footer__form-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__mobiles-title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .header__mobiles-price {
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 26px;
+    }
+
+    .header__mobiles-title2 {
+        font-size: 20px;
+        line-height: 35px;
+        margin-top: 10px;
+    }
+
+    .main__xbox-link {
+        text-transform: capitalize;
+        width: 130px;
+        padding: 5px 0;
+        font-size: 16px;
+    }
+
+    .main__xbox-title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .main__xboxdescription {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .main__sellphones-description {
+        max-width: 180px;
+    }
+}
+
+@media(max-width: 468px) {
+    .main__iphone12-title {
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .header__mobiles-btn{
+        text-transform: capitalize;
+        padding: 5px;
+    }
+
+    .main__iphone12-description {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 18px;
+    }
+
+    .main__iphone12-link {
+        margin-top: 10px;
+        text-transform: capitalize;
+        padding: 7px;
+        width: 145px;
+    }
+
+    .main__xbox-lists {
+        margin-top: 10px;
+    }
+
+    .main__xbox-list {
+        font-size: 20px;
+    }
+
+    .main__xbox-next {
+        font-size: 20px;
+    }
+
+    .next-icon:after {
+        font-size: 14px;
+    }
+
+    .main__xbox-list:after {
+        height: 23px;
+    }
+}
+
+@media(max-width: 441px) {
+    .main__playstation-logo {
+        max-width: 180px;
+    }
+
+    .main__xbox-content {
+        padding: 0;
+    }
+
+    .main__discounts-percent {
+        margin-bottom: 13px;
+    }
+
+    .main__playstation-title {
+        margin-bottom: 23px;
+        font-size: 25px;
+        line-height: 22px;
+    }
+
+    .pl_5 {
+        text-transform: lowercase;
+        width: 120px;
+        padding: 4px;
+    }
+
+
+    .main__discounts-item:nth-of-type(3) {
+        grid-column: span 4;
+    }
+
+    .main__discounts-item:nth-of-type(4) {
+        grid-column: span 4;
+    }
+
+    .main__discounts-item:nth-of-type(2) {
+        grid-row: span 6;
+    }
+
+    .main__discounts-content {
+        padding: 10px 0 3px 10px;
+    }
+
+    .main__discounts-title:nth-of-type(1) {
+        max-width: 110px;
+    }
+
+    .footer__form-list {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .main__iphone12-title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .main__iphone12-link {
+        padding: 5px;
+        width: 134px;
+    }
+
+    .main__xbox-content {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__xboxdescription {
+        display: none;
+    }
+
+    .main__xbox-title {
+        font-size: 22px;
+        text-align: center;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    .header__menu {
+        padding-left: 0;
+    }
+
+    .header__mobiles{
+        padding-left: 0;
+    }
+
+    .list-group-item {
+        margin: 0 5px;
+    }
+}
+
+
+
+@media(max-width: 350px) {
+    .header__content-title{
+        font-size: 30px;
+    }
+.carousel-indicators button{
+margin-bottom: -50px !important;
+ } 
+ .header__left-img{
+    min-width: 250px;
+    height: 100%;
+width: 100%;
+}
+.header__content-right{
+    min-width: 200px;
+    width: 100%;
+    height: 100%;
+}
+}
